@@ -1,6 +1,6 @@
 import React from 'react'
 import Headings from './Headings'
-import line from '../assets/line.svg'
+import line from '../assets/Line.svg'
 import more from '../assets/more.svg'
 import Case_Card from './Case_Card'
 function CaseStudies() {
