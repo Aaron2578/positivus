@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import arrow from '../assets/up-icon.svg';
+import arrow from '../assets/up-Icon.svg';
 import img1 from '../assets/illustration (1).svg';
 import img2 from '../assets/illustration (2).svg';
 import img3 from '../assets/illustration (6).svg';
