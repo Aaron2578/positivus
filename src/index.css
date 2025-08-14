@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+.a {
+  box-shadow: black 0px 3px 1px 1px;
+}
+.card-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+  background-color: #111; /* dark background */
+  border-left: 2px solid #4ade80; /* Tailwind green-400 */
+  border-bottom: 2px solid #4ade80;
+  transform: rotate(45deg);
+}
