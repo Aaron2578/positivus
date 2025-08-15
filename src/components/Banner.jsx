@@ -25,7 +25,7 @@ function Banner() {
                     </div>
                     <Button text={'Book a Consultation'} />
                 </div>
-                <div className='hidden w-[0%] lg:w-[50%]'>
+                <div className='hidden lg:block w-[50%]'>
                     <img src={banner} alt="banner-img" />
                 </div>
             </div>
