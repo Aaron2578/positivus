@@ -53,7 +53,7 @@ function Working_Card() {
                 return (
                     <div
                         key={index}
-                        className="a w-[100%] m-auto my-[50px] rounded-4xl transition-colors duration-300"
+                        className="a w-[100%] m-auto my-[20px] lg:my-[30px] rounded-4xl transition-colors duration-300"
                         style={{ backgroundColor: isOpen ? '#B9FF66' : '#F3F3F3' }}
                     >
                         <div className="w-[90%] m-auto flex flex-col">
@@ -61,7 +61,7 @@ function Working_Card() {
                             <div className="w-full py-5 m-auto flex justify-between items-center">
                                 <div className="flex justify-between items-center gap-5">
                                     <h1 className="text-[30px] lg:text-[60px] font-medium">{card.number}</h1>
-                                    <h3 className="text-[20px] lg:text-[30px] font-medium">{card.title}</h3>
+                                    <h3 className="text-[18px] lg:text-[30px] font-medium">{card.title}</h3>
                                 </div>
 
                                 {/* Toggle button */}

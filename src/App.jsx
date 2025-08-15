@@ -17,7 +17,7 @@ function App() {
       <CaseStudies />
       <WorkProcess />
       <Teams />
-      {/* <Testimonials /> */}
+      <Testimonials />
     </div>
   )
 }
