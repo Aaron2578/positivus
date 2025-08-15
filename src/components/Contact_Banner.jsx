@@ -4,8 +4,8 @@ import Button from './Button'
 function Contact_Banner() {
     return (
         <div className="w-[90%] h-[347px] rounded-[45px] bg-[#F3F3F3] m-auto my-[100px] flex justify-between items-center">
-            <div className='mx-[60px]'>
-                <h3 className='font-medium text-[30px]'>Let’s make things happen</h3>
+            <div className='mx-[20px] lg:mx-[60px]'>
+                <h3 className='font-bold lg:font-medium text-[20px] lg:text-[30px]'>Let’s make things happen</h3>
                 <div className='font-normal text-[18px] my-[26px]'>
                     <p>Contact us today to learn more about how our digital</p>
                     <p>marketing services can help your business grow and</p>
@@ -14,7 +14,7 @@ function Contact_Banner() {
                 <Button text={'Get your free proposal'} />
             </div>
             <div>
-                <img src={Banner} alt="contact-banner" />
+                <img src={Banner} alt="contact-banner" className='hidden lg:block' />
             </div>
         </div >
     )

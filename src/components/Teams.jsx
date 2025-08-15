@@ -15,7 +15,7 @@ function Teams() {
                 head={'Team'}
                 sub1={'Meet the skilled and experienced team behind our'}
                 sub2={'successful digital marketing strategies'} />
-            <div className='flex w-[90%] m-auto justify-between'>
+            <div className='w-[90%] m-auto lg:flex justify-between'>
                 <TeamCard
                     image={per1}
                     name={"John Smith"}
@@ -35,7 +35,7 @@ function Teams() {
                     description={'5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization'}
                 />
             </div>
-            <div className='flex w-[90%] m-auto'>
+            <div className='w-[90%] m-auto lg:flex justify-between'>
                 <TeamCard
                     image={per4}
                     name={"Emily Johnson"}

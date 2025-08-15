@@ -60,14 +60,14 @@ function Working_Card() {
                             {/* Header */}
                             <div className="w-full py-5 m-auto flex justify-between items-center">
                                 <div className="flex justify-between items-center gap-5">
-                                    <h1 className="text-[60px] font-medium">{card.number}</h1>
-                                    <h3 className="text-[30px] font-medium">{card.title}</h3>
+                                    <h1 className="text-[30px] lg:text-[60px] font-medium">{card.number}</h1>
+                                    <h3 className="text-[20px] lg:text-[30px] font-medium">{card.title}</h3>
                                 </div>
 
                                 {/* Toggle button */}
                                 <button
                                     onClick={() => toggleAccordion(index)}
-                                    className="bg-[#F3F3F3] w-[58px] h-[58px] border rounded-full text-4xl font-extrabold flex justify-center items-center"
+                                    className="bg-[#F3F3F3] min-w-min h-[25px] lg:w-[58px] lg:h-[58px] border rounded-full text-4xl font-extrabold flex justify-center items-center"
                                 >
                                     {isOpen ? '-' : '+'}
                                 </button>

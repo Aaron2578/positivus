@@ -15,8 +15,9 @@ function Services() {
             <Headings
                 head={'Services'}
                 sub1={'At our digital marketing agency, we offer a range of services to'}
-                sub2={'help businesses grow and succeed online.These services include:'} />
-            <div className='flex w-[90%] gap-[40px] items-center mt-[140px] mx-auto'>
+                sub2={'help businesses grow and succeed online.These services include:'}
+            />
+            <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 lg:w-[90%] items-center mt-[50px] mx-auto'>
                 <Card
                     titleLine1="Search engine"
                     titleLine2="optimization"
@@ -38,7 +39,7 @@ function Services() {
                     linkText="Learn More"
                 />
             </div >
-            <div className='flex w-[90%] gap-[40px] items-center mt-[40px] mx-auto'>
+            <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 lg:w-[90%] items-center mt-[25px] lg:mt-[50px] mx-auto'>
                 <Card
                     titleLine1="Social Media"
                     titleLine2="Marketing"
@@ -59,7 +60,7 @@ function Services() {
                     linkText="Learn More"
                 />
             </div >
-            <div className='flex w-[90%] gap-[40px] items-center mt-[40px] mx-auto'>
+            <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 lg:w-[90%] items-center mt-[25px] lg:mt-[50px] mx-auto'>
                 <Card
                     titleLine1="Content"
                     titleLine2="Creation"
