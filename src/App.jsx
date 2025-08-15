@@ -6,6 +6,8 @@ import Services from "./components/Services"
 import Teams from "./components/Teams"
 import WorkProcess from "./components/WorkProcess"
 import Testimonials from "./components/Testimonials"
+import ContactUs from "./components/ContactUs"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <WorkProcess />
       <Teams />
       <Testimonials />
+      <ContactUs />
+      <Footer />
     </div>
   )
 }
