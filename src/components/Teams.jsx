@@ -15,7 +15,7 @@ function Teams() {
                 head={'Team'}
                 sub1={'Meet the skilled and experienced team behind our'}
                 sub2={'successful digital marketing strategies'} />
-            <div className='flex w-[90%] m-auto justify-center'>
+            <div className='flex w-[90%] m-auto justify-between'>
                 <TeamCard
                     image={per1}
                     name={"John Smith"}

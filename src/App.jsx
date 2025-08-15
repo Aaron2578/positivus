@@ -16,7 +16,7 @@ function App() {
       <Contact_Banner />
       <CaseStudies />
       <WorkProcess />
-      <Teams />
+      {/* <Teams /> */}
       <Testimonials />
     </div>
   )

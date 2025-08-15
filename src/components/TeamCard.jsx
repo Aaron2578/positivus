@@ -3,7 +3,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 function TeamCard({ image, name, role, description, linkedin }) {
     return (
-        <div className='w-[90%] m-auto mt-[50px]'>
+        <div className='mt-[50px]'>
             <div className="a w-[387px] h-[310px] bg-white border border-black rounded-[45px] p-[35px] flex flex-col justify-between shadow-sm">
                 {/* Top Section */}
                 <div className="flex justify-between items-start mb-2">

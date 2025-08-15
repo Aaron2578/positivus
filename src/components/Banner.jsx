@@ -9,23 +9,23 @@ import zoom from '../assets/zoom.svg'
 import Button from './Button'
 function Banner() {
     return (
-        <div className='flex flex-col w-[90%] justify-between items-center my-5 mx-auto'>
+        <div className='sm:flex flex-col w-[90%] justify-between items-center my-10 mx-auto'>
             <div className='w-[100%] flex'>
-                <div className='w-[50%]'>
-                    <div className='text-[60px] font-bold'>
-                        <h1>Navigating the</h1>
-                        <h1>digital landscape</h1>
-                        <h1>for success</h1>
+                <div className='w-[100%] lg:w-[50%]'>
+                    <div className='text-[70px] lg:text-[60px] font-bold '>
+                        <h1 className='inline'>Navigating the </h1>
+                        <h1 className='inline'>digital landscape </h1>
+                        <h1 className='inline'>for success</h1>
                     </div>
                     <div className='text-[20px] font-normal leading-[28px] my-8'>
-                        <p>Our digital marketing agency helps businesses</p>
-                        <p>grow and succeed online through a range of</p>
-                        <p>services including SEO, PPC, social media marketing,</p>
-                        <p> and content creation.</p>
+                        <p className='inline'>Our digital marketing agency helps businesses</p>
+                        <p className='inline'>grow and succeed online through a range of</p>
+                        <p className='inline'>services including SEO, PPC, social media marketing,</p>
+                        <p className='inline'> and content creation.</p>
                     </div>
                     <Button text={'Book a Consultation'} />
                 </div>
-                <div className='w-[50%]'>
+                <div className='hidden w-[0%] lg:w-[50%]'>
                     <img src={banner} alt="banner-img" />
                 </div>
             </div>
