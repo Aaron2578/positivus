@@ -37,16 +37,21 @@ function Footer() {
                     <div className='flex flex-col-reverse lg:flex'>
                         <div className='bg-[#292A32] h-[auto] lg:h-[100px] lg:flex lg:justify-between lg:items-center rounded-3xl p-[10px] lg:p-[55px]'>
                             <form className='text-white lg:flex gap-5 lg:gap-10 rounded-3xl'>
-                                <input type="text" placeholder='Email' className='w-[100%] border py-3 px-3 mb-3 lg:px-3 rounded-2xl' />
+                                <input type="text" placeholder='Email' className='w-[100%] border py-3 px-3 mb-3 lg:mb-0 lg:px-3 rounded-2xl' />
                                 <button className='w-[100%] bg-[#B9FF66] p-[15px] rounded-2xl text-black'>Subscribe to news</button>
                             </form>
                         </div>
                     </div>
                 </div>
                 <hr className='text-white my-[20px]' />
-                <div className='lg:flex gap-10 text-white pb-3'>
-                    <p>© 2023 Positivus. All Rights Reserved.</p>
-                    <p>Privacy Policy</p>
+                <div className='lg:flex justify-between items-center text-white pb-3'>
+                    <div className='lg:flex gap-10'>
+                        <p>© 2025 Positivus. All Rights Reserved.</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div>
+                        <p>Created by Aaron</p>
+                    </div>
                 </div>
             </div>
         </div>
